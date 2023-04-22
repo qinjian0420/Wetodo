@@ -1,0 +1,45 @@
+#join {
+    position: relative;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#join h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    animation: slide-up 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#join p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    animation: slide-up 1s ease-in-out 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#join a {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    animation: slide-up 1s ease-in-out 1s;
+    animation-fill-mode: forwards;
+}
+
+#join a:hover {
+    background-color: #666;
+    color: #fff;
+}

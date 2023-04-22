@@ -1,0 +1,57 @@
+/* Navigation styles */
+nav {
+    /*background-color: rgba(0, 0, 0, 0.5); !* 默认背景色为半透明黑色 *!*/
+    color: #fff; /* 导航栏字体颜色为白色 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s ease-in-out; /* 添加背景色渐变过渡动画 */
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #999;
+}
